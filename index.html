@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://brainless.online/images/brainless.png" type="image/x-icon">
+    <title>Love &hearts; Calculator </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header">
+
+        <img src="https://brainless.online/images/brainless.png" alt="Logo" class="logo">
+        <span class="title">The Brainless</span>
+        <span class="dot">.</span>
+    </header>
+    <div class="container">
+        <div class="user">
+            <h1 class="headline">Welcome User</h1>
+            <img height="100"
+                src="https://cdn3.vectorstock.com/i/1000x1000/09/07/cartoon-blue-bird-in-love-vector-4550907.jpg"
+                alt="user" class="user__img">
+        </div>
+        <h3 class="tagline">Want to Know how much your partner love's you ?</h3>
+        <div class="input-box">
+            <input type="text" class="input input-1" value="" placeholder="Enter his/her First Name">
+            <input type="text" class="input input-2" value="" placeholder="Enter his/her Last Name">
+            <button class="submitBtn">Calculate </button>
+        </div>
+        <div id="results">
+            <h1 class="message-1"></h1>
+            <p class="message"></p>
+        </div>
+    </div>
+
+
+
+    <!-- //Popup  -->
+
+    <div id="popup" class="overlay">
+
+        <div class="bg-image"></div>
+
+        <div class="userInput-box">
+            <input type="text" class="username form-control" placeholder="Please type your full name">
+
+            <button class="userSubmitButton btn btn-secondary btn-lg">Proceed</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
